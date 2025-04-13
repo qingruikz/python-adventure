@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Your rule content
+
+1. Always respond in 日本語 (Japanese)
+2. Always generate comments in code and commit messages in 日本語 (Japanese).
