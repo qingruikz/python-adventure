@@ -1,0 +1,30 @@
+version: 1
+project:
+  title: Python の冒険
+  description: 経済学部生のための Python 入門教材（全 16 章）
+  github: https://github.com/qingruikz/python-adventure
+  license: MIT
+  toc:
+    - file: README.md
+    - title: 第 1 部　Python の基礎
+      children:
+        - file: "notebooks/01_welcome_ようこそPythonへ.ipynb"
+        - file: "notebooks/02_expressions_式、演算、そして変数.ipynb"
+        - file: "notebooks/03_strings_文字列.ipynb"
+        - file: "notebooks/04_lists_リストとタプル.ipynb"
+        - file: "notebooks/05_conditionals_条件分岐.ipynb"
+        - file: "notebooks/06_loops_繰り返し.ipynb"
+        - file: "notebooks/07_dicts_辞書.ipynb"
+        - file: "notebooks/08_functions_関数.ipynb"
+        - file: "notebooks/09_modules_Pythonで使える部品たち.ipynb"
+        - file: "notebooks/10_oop_オブジェクト指向.ipynb"
+    - title: 第 2 部　データ分析と機械学習
+      children:
+        - file: "notebooks/11_cleaning_データクリーニング.ipynb"
+        - file: "notebooks/12_visualization_データの可視化.ipynb"
+        - file: "notebooks/13_statistics_記述統計分析.ipynb"
+        - file: "notebooks/14_regression_回帰分析.ipynb"
+        - file: "notebooks/15_scraping_WebスクレイピングとWeb API.ipynb"
+        - file: "notebooks/16_machine-learning_機械学習.ipynb"
+site:
+  template: book-theme

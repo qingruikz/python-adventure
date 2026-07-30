@@ -1,2 +1,6 @@
 新教材.md
 イラスト.pptx
+
+# Jupyter Book のビルド成果物
+_build/
+.myst.log
